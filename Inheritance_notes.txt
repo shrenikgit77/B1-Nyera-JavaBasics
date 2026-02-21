@@ -1,0 +1,15 @@
+Inheritance
+-> Inheritance is ability to extend functions/variables of parent class to child class
+-> Forms of Inheritance
+	1) Single Level Inheritance
+	2) Multi Level Inheritance
+	3) Heirarchy Inheritance
+	
+	
+Q1) Why java does not support Multiple/Hybrid Inheritance?
+Q2) Explain syntax with example of Inheritance in Java?
+Q3) Explain Application use of Inheritance?
+Q4) Differentiate between super() & this() constructor?
+Q5) How Constructors works in Java?
+	
+	
