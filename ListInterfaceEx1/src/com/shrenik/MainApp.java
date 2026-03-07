@@ -3,6 +3,7 @@ package com.shrenik;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class MainApp {
 
 	public static void main(String[] args) {
@@ -25,7 +26,11 @@ public class MainApp {
 				System.out.println(item);
 			}
 		}
-
+		
+		//Object object has no state. neither int, float or any non-primitive type. 
+		//Object is holding a value without its original type
+	
+		
 	}
-
+	
 }
