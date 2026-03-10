@@ -38,6 +38,11 @@ public class MainApp {
 		{
 			System.out.println(item);
 		}
+		
+		Student key = new Student(874, "Harray", 89.52f);
+		
+		int index = Collections.binarySearch(students, key, c);
+		System.out.println("index = " + index);
 
 	}
 
