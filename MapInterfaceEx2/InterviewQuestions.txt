@@ -1,0 +1,23 @@
+Q1) What is Collection Framework in Java?
+Q2) Difference between Collection and Collections class?
+Q3) Differenciate between List, Set and Map?
+Q4) What are the main interfaces in Collection Framework
+Q5) Difference between HashSet, LinkedHashSet and TreeSet?
+Q6) Time Complexity of operations in ArrayList, LinkedList and HashMap , TreeMap?
+Q7) What is PriorityQueue and how does it works?
+
+
+tips
+------------
+
+Arraylist		-> dynamic array
+LinkedList		-> doubly linked list
+HashSet			-> HashMap internaary
+TreeSet			-> TreeMap internally (Red/Black Tree)
+HashMap			-> Array + Linked list
+
+handson
+-----------
+1) Removing duplicates from a list using set (hashCode() and equals() method)
+2) Sorting Custom Objects with Comparable and Comparator
+3) Vector Class Legecy methods
