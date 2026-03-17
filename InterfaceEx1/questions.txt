@@ -1,0 +1,92 @@
+
+//Q1
+class Parent
+{
+	public String msg;
+	public Parent(){
+		this.msg = "INDIA";
+	}
+	public Parent(String msg){
+		this();
+		this.msg = msg;
+	}
+}
+
+class Child extends Parent
+{
+	public Child(){
+		super("ASIA");	
+	}
+}
+
+Child c1 = new Child();
+Sout(c1.msg);//line1
+
+What will be output for line1?		//ASIA
+
+
+
+//Q2
+
+abstract class Abc
+{
+	public abstract void a();
+	public void b(){
+		Sout("i am b");
+	}
+}
+
+class Child extends Abc
+{
+	@Override
+	public void a(){
+		Sout("i am a");
+	}
+}
+
+Abc obj = new Child();
+obj.b(); //line1
+
+What will be output for line1?     //i am b
+
+
+//Q3
+interface Red
+{
+	public void shade();
+}
+
+interface Green
+{
+	public void shade();
+}
+
+abstract class Color implements Red, Green
+{
+	@Override
+	public void shade(){
+		Sout("Dark");
+	}
+
+	public abstract void colorCode();
+}
+
+class Canvas extends Color
+{
+	@Override
+	public void colorCode(){
+		System.out.print("RGB");
+	}
+}
+
+
+G g = new Canvas();
+g.shade();//line1
+
+Color c = new Canvas();
+c.shade();//line2
+
+What will be the output of line1 and line2?//Dark Dark
+
+
+
