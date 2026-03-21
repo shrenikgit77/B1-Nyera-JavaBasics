@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>HTML CSS Ex6</title>
+
+        <style>
+            .common-style{
+                margin:15px;
+                padding:2px;
+                border-radius:12px;
+                box-shadow:5px 5px 9px grey;
+                opacity:0.7;
+
+                animation:ImageAnimation 6s infinite;
+            }
+
+            .green-border{
+                border:8px solid green;
+                width:200px;
+                height:200px;
+            }
+
+            .orange-border{
+                border:8px solid darkorange;
+                width:300px;
+                height:300px;
+            }
+
+            .common-style:hover{
+                opacity:1;
+            }
+
+            @keyframes ImageAnimation{
+                from{
+                    box-shadow:5px 5px 9px grey;
+                    transform: translate(100%);
+                }
+
+                to{
+                    box-shadow:8px 8px 9px red;
+                     transform: translate(-100%);
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Images</h1>
+        <hr>
+
+        <marquee direction="left">
+            <img class="green-border common-style" src="https://placehold.co/300x400?text=Hello" alt="hello_image" />
+            <img class="green-border common-style" src="https://placehold.co/500x500/green/white?text=India" alt="india_image" />
+        </marquee>
+
+        <div>
+            <img class="orange-border common-style" src="https://picsum.photos/id/25/200/300" alt="image1" />
+            <img class="orange-border common-style" src="https://picsum.photos/id/50/200/300" alt="image2" />
+            <img class="orange-border common-style" src="https://picsum.photos/id/125/200/300" alt="image3" />
+            <img class="orange-border common-style" src="https://picsum.photos/id/250/200/300" alt="image4" />
+            <img class="orange-border common-style" src="https://picsum.photos/id/160/200/300" alt="image5" />
+        </div>
+
+
+
+
+
+    </body>
+</html>

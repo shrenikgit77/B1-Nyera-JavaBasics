@@ -1,0 +1,30 @@
+ body {
+     background-color: azure;
+     margin: 1px;
+ }
+
+ #page-header {
+     list-style: none;
+     padding: 0px;
+     background-color: black;
+     margin-bottom: 10px;
+     box-shadow: 3px 3px 4px whitesmoke;
+     border-radius: 10px 10px 0px 0px;
+     /* top-left top-right bottom-right bottom-left*/
+ }
+
+ #page-header li {
+     color: white;
+     margin: 20px 5px 20px 5px;
+     padding: 8px;
+     border: 1px solid black;
+     display: inline-block;
+     font: bold 18px 'comic sans ms';
+     width: 150px;
+     text-align: center;
+ }
+
+ #page-header li:hover {
+     color: yellow;
+     cursor: pointer;
+ }

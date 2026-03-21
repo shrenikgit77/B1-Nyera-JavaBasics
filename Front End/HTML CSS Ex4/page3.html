@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>HTML CSS Ex4</title>
+
+        <style>
+            table{
+                border:1px solid black;
+                margin:10px;
+                border-collapse: collapse;
+            }
+
+            th,td{
+                border:1px solid black;
+                padding:10px;
+            }
+
+            #result-table th{
+                color:red;
+            }
+
+            #emp-table th{
+                color:green;
+            }
+
+            #marksheet-table th{
+                color:darkblue;
+            }
+
+            tr:hover{
+                background-color: azure;
+            }
+
+            #result-table tr:hover{
+                color:darkred;
+            }
+
+            #emp-table tr:hover{
+                color:darkorange;
+            }
+
+            #marksheet-table tr:hover{
+                color:darkgrey;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>HTML CSS Ex4</h1>
+        <hr>
+
+        <table id="result-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Smith</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>68%</td>
+                </tr>
+                <tr>
+                    <td>James</td>
+                    <td>77%</td>
+                </tr>
+                <tr>
+                    <td>Kang</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                    <td>Eliz</td>
+                    <td>88%</td>
+                </tr>
+                <tr>
+                    <td>Mathew</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>Devid</td>
+                    <td>78%</td>
+                </tr>
+                <tr>
+                    <td>Peter</td>
+                    <td>89%</td>
+                </tr>
+                <tr>
+                    <td>Kong Zu</td>
+                    <td>78%</td>
+                </tr>
+                <tr>
+                    <td>Watson</td>
+                    <td>78%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table id="emp-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Employee</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>9824</td>
+                    <td>Smith Devid</td>
+                    <td>INR 69000</td>
+                </tr>
+                <tr>
+                    <td>9834</td>
+                    <td>Peter Mathew</td>
+                    <td>INR 56000</td>
+                </tr>
+                <tr>
+                    <td>9892</td>
+                    <td>Kang Eliz</td>
+                    <td>INR 80000</td>
+                </tr>
+                <tr>
+                    <td>9893</td>
+                    <td>John Watson</td>
+                    <td>INR 69000</td>
+                </tr>
+                <tr>
+                    <td>7912</td>
+                    <td>James Harry</td>
+                    <td>INR 59000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table id="marksheet-table">
+            <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Science</th>
+                    <th>Maths</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Smith</td>
+                    <td>90</td>
+                    <td>89</td>
+                    <td>78</td>
+                </tr>
+                <tr>
+                    <td>James</td>
+                    <td>89</td>
+                    <td>78</td>
+                    <td>67</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>90</td>
+                    <td>89</td>
+                    <td>67</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
