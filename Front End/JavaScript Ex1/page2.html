@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>JavaScript Ex1</title>
+    </head>
+
+
+    <body>
+        <h1>JavaScript - Read Textbox</h1>
+        <hr>
+
+
+        <input type="text" placeholder="enter name" id="user-name" />
+        <button onclick="readName()">Read</button>
+
+
+        <script>
+            function readName()
+            {
+                var username = document.getElementById("user-name").value;
+                console.log(username);
+            }
+        </script>
+
+
+    </body>
+</html>
