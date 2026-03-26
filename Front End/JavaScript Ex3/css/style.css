@@ -1,0 +1,17 @@
+.technology{
+    font:bold 14px 'calibri';
+    margin:2px;
+    padding:2px;
+}
+
+.front-end{
+    color:green;
+}
+
+.back-end{
+    color:blue;
+}
+
+.mobile-app{
+    color:red;
+}

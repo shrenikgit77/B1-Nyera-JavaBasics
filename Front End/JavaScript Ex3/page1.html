@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>JavaScript Ex3</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+
+    <body>
+        <h1>Document Object Model</h1>
+        <hr>
+
+        <button onclick="readFrontEnd()">Read Front End</button>
+        <button>Read Back End</button>
+        <button>Read Mobile App</button>
+        <button>Read All</button>
+
+        <ul>
+            <li class="front-end technology">Angular</li>
+            <li class="front-end technology">React</li>
+            <li class="front-end technology">Vue.js</li>
+            <li class="back-end technology">Nest.js</li>
+            <li class="back-end technology">Nuxt.js</li>
+            <li class="front-end technology">Next.js</li>
+            <li class="back-end technology">Express.js</li>
+            <li class="back-end technology">Spring Boot</li>
+            <li class="back-end technology">Django</li>
+            <li class="back-end technology">Flask</li>
+            <li class="back-end technology">Fast</li>
+            <li class="mobile-app technology">Swift Ui</li>
+            <li class="mobile-app technology">Dart Programming</li>
+            <li class="mobile-app technology">Kotlin</li>
+            <li class="mobile-app technology">React Native</li>
+        </ul>
+
+        <script>
+            function readFrontEnd()
+            {
+                var result = document.getElementsByClassName("front-end");
+                for(var i=0;i<result.length;i++)
+                {
+                    console.log(result[i].innerHTML);
+                }
+            }
+        </script>
+    </body>
+</html>

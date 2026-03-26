@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>JavaScript Ex2</title>
+    </head>
+
+    <body>
+        <h1>JavaScript onchange Event</h1>
+        <hr>
+
+
+        <input type="radio" id="car1" value="bmw" name="cars" onchange="select_car(this)"/>
+        <label for="car1">BMW</label>
+
+        <br/><br/>
+
+        <input type="radio" id="car2" value="ferrari" name="cars" onchange="select_car(this)"/>
+        <label for="car2">FERRARI</label>
+        
+        <br/><br/>
+
+        <input type="radio" id="car3" value="ford" name="cars" onchange="select_car(this)"/>
+        <label for="car3">FORD</label>
+
+        <br/><br/>
+
+        <input type="radio" id="car4" value="auddi" name="cars" onchange="select_car(this)"/>
+        <label for="car4">AUDDI</label>
+
+
+        <script>
+            function select_car(target)
+            {
+                console.log(target.value);
+            }
+        </script>
+    </body>
+</html>

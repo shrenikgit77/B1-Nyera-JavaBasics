@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>JavaScript Ex2</title>
+    </head>
+
+    <body>
+        <h1>JavaScript onchange Event</h1>
+        <hr>
+
+
+        <input type="checkbox" id="car1" value="bmw" onchange="select_car(this)"/>
+        <label for="car1">BMW</label>
+
+        <br/><br/>
+
+        <input type="checkbox" id="car2" value="ferrari" onchange="select_car(this)"/>
+        <label for="car2">FERRARI</label>
+        
+        <br/><br/>
+
+        <input type="checkbox" id="car3" value="ford" onchange="select_car(this)"/>
+        <label for="car3">FORD</label>
+
+        <br/><br/>
+
+        <input type="checkbox" id="car4" value="auddi" onchange="select_car(this)"/>
+        <label for="car4">AUDDI</label>
+
+
+        <script>
+            var selectedcars = new Set();
+
+            function select_car(target)
+            {
+                if(target.checked==true)
+                {
+                    selectedcars.add(target.value);
+                } 
+                else
+                {
+                    selectedcars.delete(target.value);
+                }
+
+                console.log(Array.from(selectedcars));
+            }
+        </script>
+    </body>
+</html>
