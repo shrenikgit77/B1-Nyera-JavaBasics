@@ -24,3 +24,4 @@ hs_err_pid*
 replay_pid*
 
 /Front End/React/hello-app/node_modules
+/Front End/React/react-features/node_modules
