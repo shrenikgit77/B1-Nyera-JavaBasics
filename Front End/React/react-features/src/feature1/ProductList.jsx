@@ -16,7 +16,9 @@ let ProductList = () => {
     return (
         <>
             <div className="flex justify-around flex-wrap">
-                <Product stock={stock} />
+                {stock.map(item=>
+                    <Product info={{...item}} />
+                )}
             </div>
         </>
     )
