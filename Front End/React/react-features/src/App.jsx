@@ -6,6 +6,7 @@ import Example4 from './feature4/Index'
 import Example5 from './feature5/Index'
 import Example6 from './feature6/Index'
 import Example7 from './feature7/Index'
+import Example8 from './feature8/Index'
 
 let App = () => {
   return (
@@ -16,7 +17,8 @@ let App = () => {
       {/* <Example4 /> */}
       {/* <Example5 /> */}
       {/* <Example6 /> */}
-      <Example7 />
+      {/* <Example7 /> */}
+      <Example8 />
     </>
   )
 }

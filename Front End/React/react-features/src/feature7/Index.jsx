@@ -11,8 +11,6 @@ import Page5 from "./Page5";
 let Example7 = () => {
     return (
         <>
-           
-
             <BrowserRouter>
                     <Routes>
                         <Route path="" element={<Header />}>
