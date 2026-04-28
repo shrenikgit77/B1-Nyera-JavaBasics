@@ -1,0 +1,90 @@
+Database Programming is SQL (Structured Query Language)
+
+	-> Keywords
+		FROM, WHERE, ORDERBY, PRIMARY KEY, FOREIGN KEY, REFERENCES, JOIN, TRIGGER,
+		BEFORE, PROCEDURE, FUNCTION, INT, DECIMAL, BLOB, VARCHAR, CHAR, BOOLEAN etc.
+
+	-> SQL is case-insensitive
+		
+	-> SQL coding is a querying (you are writing simple statement)
+
+	-> Statements 
+	
+		1) DML (Data Manipulation Language)
+			-> Manipulate Data inside Table
+			-> INSERT, UPDATE, DELETE, MERGE
+
+		2) DDL (Data Definition Language)
+			-> Define and manage databases - define schema/object
+			-> CREATE, ALTER, DROP, TRUNCATE, RENAME, COMMENT
+
+		3) DCL (Data Control Language)
+			-> Control access and permissions
+			-> GRANT, REVOKE
+	
+		4) DQL (Data Query Language)
+			-> retrieve data
+			-> SELECT
+	
+		4) TCL (Transaction Control Language)
+			-> Manages Transactions and Consistency
+			-> COMMIT, ROLLBACK, SET, TRANSACTION
+	
+
+	Syntax to begin with
+	-------------------------------------
+	1) Create Database Table
+	
+		CREATE TABLE <TableName>	
+		(
+			<Field_Name> <Datatype> <Constraint>,
+			<Field_Name> <Datatype> <Constraint>,
+			<Field_Name> <Datatype> <Constraint>,
+
+			... add many more.
+		);
+		
+		CREATE TABLE Product
+		(
+			id		INT		PRIMARY KEY,
+			title		VARCHAR(30)	NOT NULL,
+			description	VARCHAR(300)	NULL,
+			weight		DECIMAL(10,2)	NOT NULL,
+			cost		DECIMAL(10,2)	NOT NULL,
+			company		VARCHAR(100)	ENUM('A','B','C','D','E')		
+		);
+
+
+	2) Alter Table
+		ALTER TABLE <Table_Name> 
+		ALTER COLUMN <Column_Name> <Datatype> NOT NULL;
+
+		ALTER TABLE Product
+		MODIFY COLUMN description VARCHAR(400) NOT NULL;
+
+	
+	3) Deleting
+		
+		TRUNCATE : Remove all rows from table
+
+		DROP : Removes entire database table
+	
+		DELETE : Removes selected rows based on condition
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
